@@ -1,4 +1,4 @@
-import { useState } from "react"; 
+import { useState } from 'react'; 
 
 export function Button () {
 
@@ -12,5 +12,7 @@ export function Button () {
     return(
     <button onClick={increment}>{counter}</button>
     )
+
 }
+
 
